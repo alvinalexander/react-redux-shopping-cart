@@ -1,0 +1,6 @@
+[
+  {"category": "Fruit", "price": 10, "name": "Bananas"},
+  {"category": "Fruit", "price": 10, "name": "Avocados"},
+  {"category": "Meat", "price": 20, "name": "Chicken"},
+  {"category": "Meat", "price": 20, "name": "Beef"}
+]
