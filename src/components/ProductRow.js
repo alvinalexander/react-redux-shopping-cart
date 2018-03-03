@@ -1,13 +1,10 @@
 import React from 'react';
-
+import Product from './Product';
 const ProductItem = ({product, onAddToCartClicked}) => (
     <tr>
-        <td>
-            {product.name}
-        </td>
-        <td>
-            {product.price}
-        </td>
+        <Product
+
+        />
         <td>
             <select name={product.name}>
                 <option value="0">0</option>
