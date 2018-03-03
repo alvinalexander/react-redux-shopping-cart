@@ -12,10 +12,10 @@ const byId = (state = {}, action) => {
                 }, {})
             };
         case ADD_TO_CART:
-            const {productId} = action;
+            const {id} = action;
             return {
                 ...state,
-                [productId]: {...state[productId], inventory: state[productId].inventory -1}
+                [id]: {...state[id], inventory: state[id].inventory - action.qty}
             };
         default:
             return state;
