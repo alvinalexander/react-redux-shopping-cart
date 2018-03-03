@@ -1,6 +1,6 @@
 [
-  {"category": "Fruit", "price": 10, "name": "Bananas"},
-  {"category": "Fruit", "price": 10, "name": "Avocados"},
-  {"category": "Meat", "price": 20, "name": "Chicken"},
-  {"category": "Meat", "price": 20, "name": "Beef"}
+  {"id": 1, "category": "Fruit", "price": 10, "title": "Bananas", "inventory": 20},
+  {"id": 2, "category": "Fruit", "price": 10, "title": "Avocados", "inventory": 10},
+  {"id": 3, "category": "Meat", "price": 20, "title": "Chicken", "inventory": 30},
+  {"id": 4, "category": "Meat", "price": 20, "title": "Beef", "inventory": 50}
 ]
